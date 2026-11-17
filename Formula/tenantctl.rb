@@ -1,28 +1,28 @@
 class Tenantctl < Formula
   desc "Microsoft 365 tenant administration CLI over Microsoft Graph"
   homepage "https://github.com/willstarnet/tenantctl"
-  version "0.2.2"
+  version "0.2.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/willstarnet/tenantctl/releases/download/v0.2.2/tenantctl-darwin-arm64.tar.gz"
-      sha256 "d972d3f622360eaf5a45296276eabc85b37909ff470f4cab84d6ef0d8d630427"
+      url "https://github.com/willstarnet/tenantctl/releases/download/v0.2.3/tenantctl-darwin-arm64.tar.gz"
+      sha256 "a01b27a80c413caa33ab8f808f41b946f40d5ce2c23c679e5a13322da2a122cc"
     end
     on_intel do
-      url "https://github.com/willstarnet/tenantctl/releases/download/v0.2.2/tenantctl-darwin-x64.tar.gz"
-      sha256 "e7bf26735fb0d5a6ddadbb1fe7216bcf6125d142721bbe541dbb720558260a26"
+      url "https://github.com/willstarnet/tenantctl/releases/download/v0.2.3/tenantctl-darwin-x64.tar.gz"
+      sha256 "385c3e603bd0e65816ebfae7d376f4ca5e5fd59d7ee7b7127efdb4ebd16014fc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/willstarnet/tenantctl/releases/download/v0.2.2/tenantctl-linux-arm64.tar.gz"
-      sha256 "054820271ac3c72cf050286d2a89ef1422ba8373c969032dc3e4de3c8ecde7dd"
+      url "https://github.com/willstarnet/tenantctl/releases/download/v0.2.3/tenantctl-linux-arm64.tar.gz"
+      sha256 "a1f5c5e8406f456a70d444ec7c51d2baa0deed15dd25fc53465a335b2b31eb0e"
     end
     on_intel do
-      url "https://github.com/willstarnet/tenantctl/releases/download/v0.2.2/tenantctl-linux-x64-baseline.tar.gz"
-      sha256 "d9301bdd5ab61cd444dc0f69d71ba9377d1b1ddfd3dc0ea8448e9c8ef2dd8c97"
+      url "https://github.com/willstarnet/tenantctl/releases/download/v0.2.3/tenantctl-linux-x64-baseline.tar.gz"
+      sha256 "a881589fea43b5aab03720b8129f125e4eac4bc73d26823abfb35d8853213b11"
     end
   end
 
